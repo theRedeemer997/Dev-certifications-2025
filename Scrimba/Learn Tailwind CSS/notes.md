@@ -71,3 +71,54 @@ intead of colors like red, blue and green the tailwind comes with the option of 
 - for padding we use class = 'p-{value}'
 - for margin we use class = 'm-{value}'
 - remember 1 unit = 0.25 rem = 4px
+- syntax for side specific
+
+  - t --> top - x left and right
+  - b --> bottom - y top and bottom
+  - l --> left
+  - r --> right
+
+  class='[p/m]{side}-{value}
+  where p is padding and m is margin
+
+### typography classes
+
+#### font-family
+
+    - font family which is class='font-{family}'
+    - family is sans, serif monmo etc . refer to the documentation for more and the mono, serif and sans refers to the complete font stack here.
+
+#### font-style
+
+    - font-style is the class which italic or non-italic
+    - class = 'italic' or class= 'non-italic'
+
+### font-weight
+
+    - weight: thin --> font-weight:100 ....... check the other font-weight in the documentation...... weight:black --> font-weight:900
+    - class="font-{weight}"
+
+### text classes
+
+#### text alignment
+
+    - value - left --> text-align:left which aligns the text toward the left
+
+    - value - center --> text-align:center aligns the text center and the other classes are right, justify, start and end. - syntax : class="text-{value}"
+
+#### font-size
+
+    - class = 'text-{value}'
+    where value can be 's' where the font-size is 0.75rem and line-height is 1 rem, 'sm' where the font-size is 0.875 rem and line-height is 1.25 rem  --check for other classes in the doc and -- '9xl' where the font size is 8rem and line-height is 1
+
+#### text-decoration
+
+    class="underline", class="overline" , class="line-through" and class = "no-underline"
+
+#### text transform
+
+    - class='uppercase', class='lowercase', class='capitalize'
+    and class='normal-size'
+
+### letter-spacing
+
