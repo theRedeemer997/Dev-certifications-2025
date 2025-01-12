@@ -8,7 +8,7 @@ complex systems
 - `Declarative` - the library handles the tedious tasks and we dont have to worry about that
 
 ## create react app using the vite
-npm create vite@latest
+`npm create vite@latest`
 
 ## difference between libraries and framework
  - the `library` is a collection of reusable code 
