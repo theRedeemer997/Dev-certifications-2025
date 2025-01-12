@@ -1,0 +1,19 @@
+html {
+  font-size: 10px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: rgb(244, 244, 244);
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
