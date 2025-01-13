@@ -1,5 +1,11 @@
 # Redux ToolKit (RTK)
 
+- Setup install the following dependencies
+
+  ```shell
+    npm i @reduxjs/toolkit react-redux
+  ```
+
 - Redux toolkit came to prevent the issue of` prop drilling`. So basically what happens is suppose there is the great grand parent and then there is the grand parent and then there is the parent and then the child , so what happens is that ?
 - Suppose the child need any prop, the state or the prop which is there with the great grand parent has now to be passed to the child . In this case this prop has to first go to grand parent and from there to parent and then to child. However this grand parent and the parent does not need the prop so this is unecessay and this is called prop drilling and to overcome this issue the redux came in to picture and redux toolkit is a version of that
 
