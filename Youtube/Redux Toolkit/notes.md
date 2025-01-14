@@ -36,6 +36,11 @@ export const store = configureStore({
 
 - Now export the type `RootState` and `AppDispatch`
 
+```TypeScript
+  export type RootState = ReturnType<typeof store.getState>;
+  export type AppDispatch = typeof store.dispatch;
+```
+
 - for now, these are the changes in the store.ts file and then go to main.tsx and then
 
   - first install react-redux and then import the store that we create and also the `Provider` form `react-redux`
